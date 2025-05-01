@@ -1,0 +1,13 @@
+prefix=/home/praveenpathak/Music/new_python/venv
+exec_prefix=/home/praveenpathak/Music/new_python/venv
+libdir=/home/praveenpathak/Music/new_python/venv/lib
+sharedlibdir=/home/praveenpathak/Music/new_python/venv/lib
+includedir=/home/praveenpathak/Music/new_python/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
